@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  overflow-x: hidden;
+  font-family: 'Lato', sans-serif;
+  background-color: rgb(233, 233, 233);
+ 
+}
+
+button{
+    padding: 5px 30px;
+    margin-right: 20px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    border: none;
+}
+button:focus{
+  outline: none;
+}
+button:hover{
+  background-color: rgb(196, 55, 20);
+  color: white;
+  border: 1px solid white;
+}
+nav{
+  background-color: rgb(0, 107, 93);
+}
+.container-fluid{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 10px;
+  overflow: hidden;
+}
+.profile:hover{
+  transform: scale(1.1);
+}
+p{
+  color: yellow;
+  font-size:20px;
+  font-weight: bold;
+}
+.name{
+  color: white;
+  font-size:30px;
+  font-weight: bold;
+}
+.email {
+  font-size: 22px;
+  color: rgb(0, 255, 115);
+}
+
+.text{
+  color: white;
+  padding: 10px 10px;
+}
+.avatar{
+  border-radius: 70px;
+  margin-bottom: 10px;
+}
+
+.row{
+  flex-wrap: wrap;
+  
+  flex-direction: row;
+  row-gap: 1;
+  margin-top: 20px;
+  margin-left: 35px;
+  margin-right: -25px;
+
+  
+}
+.profile {
+background-color: rgb(0, 107, 93); 
+border: 2px solid red;
+overflow: hidden;
+padding: 20px;
+text-align: center;
+margin: 20px 60px 20px 50px;
+transition: 0.5s all ease-in-out;
+  
+
+
+}
